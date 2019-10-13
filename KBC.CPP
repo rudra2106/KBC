@@ -12,8 +12,8 @@
 #include"CODING.CPP"
 void welcomepage();
 void question();
-main()
-{
+void main()
+{	system("cls");
 	int gd=DETECT,gm;
 	initgraph(&gd,&gm,"");
 	int maxx=getmaxx();
